@@ -1,0 +1,56 @@
+{
+  "colors": [
+    {
+      "id": 1,
+      "name": "Red",
+      "category": "colors"
+    },
+    {
+      "id": 2,
+      "name": "Green",
+      "category": "colors"
+    },
+    {
+      "id": 3,
+      "name": "Blue",
+      "category": "colors"
+    },
+    {
+      "id": 4,
+      "name": "Black",
+      "category": "colors"
+    },
+    {
+      "id": 5,
+      "name": "Pink",
+      "category": "colors"
+    }
+  ],
+  "numbers": [
+    {
+      "id": 1,
+      "name": "One",
+      "category": "numbers"
+    },
+    {
+      "id": 2,
+      "name": "Two",
+      "category": "numbers"
+    },
+    {
+      "id": 3,
+      "name": "Three",
+      "category": "numbers"
+    },
+    {
+      "id": 4,
+      "name": "Four",
+      "category": "numbers"
+    },
+    {
+      "id": 5,
+      "name": "Five",
+      "category": "numbers"
+    }
+  ]
+}

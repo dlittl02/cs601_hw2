@@ -1,0 +1,64 @@
+/* Overall page background */
+body {
+    background-color: yellow;
+    font-family: Arial, sans-serif; /* Change font family to something clean */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Make all <h2> text color red */
+h2 {
+    color: red;
+}
+
+/* Container for the items */
+#all-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+/* Drop zone box styling */
+.dropzone {
+    width: 200px;
+    height: 150px;
+    border: 2px solid #ccc;
+    background-color: blue;  /* Blue background */
+    color: white;  /* White text inside the box */
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* Text color for the items (colors and numbers) */
+.data-item {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;  /* Red text for all items */
+    cursor: pointer;
+    padding: 10px;
+    background-color: #fff;  /* Optional: Adds background to items */
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* When an item is being dragged (semi-transparent) */
+.data-item[draggable="true"] {
+    opacity: 0.7;
+}
+
+/* Styling the drop zone when a valid item is dragged over */
+.dropzone.valid {
+    border: 2px solid green;  /* Green border for valid drop zone */
+}
+
+/* Styling the drop zone when an invalid item is dragged over */
+.dropzone.invalid {
+    border: 2px solid red;  /* Red border for invalid drop zone */
+}
